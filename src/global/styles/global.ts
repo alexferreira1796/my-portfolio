@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-size: 100%;
         box-sizing: border-box;
+        border: none;
     }
 
     html, body {
@@ -31,5 +32,19 @@ export const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
+        cursor: pointer;
+    }
+
+    button {
+        outline: none;
+        width: 143px;
+        height: 42px;
+        font-family: ${({theme}) => theme.fonts.medium.fontFamily};
+        font-weight: ${({theme}) => theme.fonts.medium.fontWeight};
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        border: 1px solid #333333;
+        padding: 10px;
+        font-size: 14px;
     }
 `;
