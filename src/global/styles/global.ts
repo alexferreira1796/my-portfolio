@@ -24,4 +24,12 @@ export const GlobalStyle = createGlobalStyle`
     p, span, ul {
         font-family: ${({theme}) => theme.fonts.regular.fontFamily};
     }
+
+    ul, li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
 `;
