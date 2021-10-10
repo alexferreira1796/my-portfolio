@@ -1,22 +1,22 @@
 export const Menu = [
     {
         id: '1',
-        name: "Sobre mim",
+        name: "About me",
         path: "#about"
     },
     {
         id: '2',
-        name: "Projetos",
+        name: "Projects",
         path: "#projects"
     },
     {
         id: '3',
-        name: "Serviços",
+        name: "Services",
         path: "#services"
     },
     {
         id: '4',
-        name: "Minhas skills",
+        name: "My skills",
         path: "#my-skills"
     }     
 ]

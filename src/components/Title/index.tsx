@@ -4,7 +4,7 @@ export const Title = () => {
     return (
         <>
             <Head>
-                <title>Alex Ferreira - Portfólio</title>
+                <title>Alex Ferreira - Portfolio</title>
             </Head>
         </>
     )
