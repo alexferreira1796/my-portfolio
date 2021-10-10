@@ -1,6 +1,8 @@
 import { Title } from "../components/Title";
 import { Header } from "../components/Header";
-import { SectionHello } from '../components/SectionHello'
+import { SectionHello } from '../components/SectionHello';
+import { About } from '../components/About';
+import { Projects } from '../components/Projects';
 import * as S from "../global/styles/home";
 
 const Home = () => {
@@ -9,6 +11,8 @@ const Home = () => {
       <Title />
       <Header />
       <SectionHello />
+      <About />
+      <Projects />
     </S.Container>
   )
 }

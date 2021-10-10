@@ -8,7 +8,8 @@ export const SectionHello = () => {
         <S.Container>
             <S.About>
                 <S.Title>
-                    Hello, {"i'm Alex Ferreira"}
+                    Hello,<br />
+                    I am Alex Ferreira
                 </S.Title>
                 <S.Subtitle>
                     Front-end developer

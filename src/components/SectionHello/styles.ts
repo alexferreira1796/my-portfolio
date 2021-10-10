@@ -3,7 +3,7 @@ import theme from "../../global/styles/theme";
 
 export const Container = styled.section`
     width: 100%;
-    margin-top: 143px;
+    margin-top: 125px;
     display: flex;
     align-items: center;
     justify-content: center;

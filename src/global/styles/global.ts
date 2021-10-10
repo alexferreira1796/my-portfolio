@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import theme from "./theme";
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -11,6 +12,17 @@ export const GlobalStyle = createGlobalStyle`
 
     html, body {
         height: 100%;
+        overflow-y: auto;
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: ${({theme}) => theme.colors.tertiary};
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background-color: ${({theme}) => theme.colors.secondary};
+  }
     }
 
     body {
