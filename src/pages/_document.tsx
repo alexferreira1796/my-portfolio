@@ -1,7 +1,6 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components'
 
-
 export default class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
         const sheet = new ServerStyleSheet()
@@ -36,6 +35,8 @@ export default class MyDocument extends Document {
                     <meta httpEquiv="Content-Language" content="pt-br, en" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="description" content="" />
+                    <meta name="author" content="" />
+                    <link rel="icon" href="/images/favicon.ico"></link>
                     <meta name="author" content="Alex Ferreira" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />

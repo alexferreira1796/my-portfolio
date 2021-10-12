@@ -6,7 +6,7 @@ import { List } from './List';
 
 export const Skills = () => {
     return (
-        <S.Container>
+        <S.Container id="my-skills">
             <TitleSection>My Skills</TitleSection>
 
             <S.ContainerSkills>

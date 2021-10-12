@@ -7,11 +7,14 @@ export const Menu = () => {
         <S.Menu>
             <S.ListMenu>
                 {
-                    Options && Options.map(({id, name, path}) => {
+                    Options && Options.map(({id, name, tag, active}) => {
+                        const activeClass = (active) ? "active" : "";
                         return (
                             <S.List key={id}>
-                                <Link href={path}>
-                                    {name}
+                                <Link 
+                                    href={tag}
+                                >
+                                    <a>{name}</a>
                                 </Link>
                             </S.List>
                         )

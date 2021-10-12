@@ -6,7 +6,7 @@ import { Projects as DataProjects } from '../../utils/projects'
 
 export const Projects = () => {
     return (
-        <S.Container>
+        <S.Container id="projects">
             <TitleSection>Projects</TitleSection>
 
             <S.ContainerList>

@@ -23,6 +23,9 @@ export const List = styled.li`
         &:hover {
             color: ${({theme}) => theme.colors.tertiary};
         }
-
+    
+    }
+    a.active {
+        border-bottom: 1px solid ${({theme}) => theme.colors.tertiary};
     }
 `

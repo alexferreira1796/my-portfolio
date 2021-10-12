@@ -7,7 +7,7 @@ import { ImDatabase } from "react-icons/im";
 
 export const Services = () => {
     return (
-        <S.Container>
+        <S.Container id="services">
             <TitleSection>Services</TitleSection>
 
             <S.ContainerList>

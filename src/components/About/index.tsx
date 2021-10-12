@@ -7,7 +7,7 @@ import { Social as SocialData } from '../../utils/social';
 
 export const About = () => {
     return (
-        <S.Container>
+        <S.Container id="about">
             <TitleSection>About me</TitleSection>
             <S.Paragraph>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

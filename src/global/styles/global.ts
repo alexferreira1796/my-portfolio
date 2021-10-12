@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
 
     html, body {
         height: 100%;
-        overflow-y: auto;
         ::-webkit-scrollbar {
             width: 10px;
         }
@@ -22,7 +21,11 @@ export const GlobalStyle = createGlobalStyle`
         }
         ::-webkit-scrollbar-track {
             background-color: ${({theme}) => theme.colors.secondary};
-  }
+        }
+    }
+
+    html {
+        scroll-behavior: smooth;
     }
 
     body {
