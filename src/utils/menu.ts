@@ -1,25 +1,25 @@
 export const Menu = [
     {
         id: '1',
-        name: "About me",
+        name: "about",
         tag: "#about",
         active: false,
     },
     {
         id: '2',
-        name: "Projects",
+        name: "projects",
         tag: "#projects",
         active: false,
     },
     {
         id: '3',
-        name: "Services",
+        name: "services",
         tag: "#services",
         active: false,
     },
     {
         id: '4',
-        name: "My skills",
+        name: "skills",
         tag: "#my-skills",
         active: false,
     }     

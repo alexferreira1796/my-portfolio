@@ -11,7 +11,7 @@ export const ListMenu = styled.ul`
     align-items: center;
     justify-content: center;
     & li {
-        margin-right: 40px;
+        margin-left: 40px;
     }
 `
 

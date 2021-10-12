@@ -1,0 +1,11 @@
+{
+    "header": {
+        "title": "Portfólio",
+        "menu": {
+            "about": "Sobre mim",
+            "projects": "Projetos",
+            "services": "Serviços",
+            "skills": "Minhas Skills"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "header": {
+        "title": "Portfolio",
+        "menu": {
+            "about": "About me",
+            "projects": "Projects",
+            "services": "Services",
+            "skills": "My Skills"
+        }
+    }
+}
