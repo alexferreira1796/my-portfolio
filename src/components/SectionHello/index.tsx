@@ -1,18 +1,23 @@
+import React from 'react';
 import Image from "next/image";
 import * as S from './styles'
 import { Button } from '../Button';
 import theme from '../../global/styles/theme';
 
+import { TranslateGlobal } from '../../contexts/translateGlobal';
+
 export const SectionHello = () => {
+    const { getTranslate } = React.useContext(TranslateGlobal);
+
     return (
         <S.Container>
             <S.About>
                 <S.Title>
-                    Hello,<br />
-                    I am Alex Ferreira
+                    {getTranslate('sectionHello.title')}<br />
+                    {getTranslate('sectionHello.apresentation')}
                 </S.Title>
                 <S.Subtitle>
-                    Front-end developer
+                    {getTranslate('sectionHello.subtitle')}
                 </S.Subtitle>
 
                 <S.Buttons>
@@ -21,7 +26,7 @@ export const SectionHello = () => {
                         bgColor: theme.colors.tertiary
                     }}
                     />
-                    <Button text="Get in touch" colors={{
+                    <Button text={getTranslate('sectionHello.button')} colors={{
                         color: theme.colors.white, 
                         bgColor: theme.colors.primary
                     }}
