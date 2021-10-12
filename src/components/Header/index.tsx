@@ -1,11 +1,12 @@
 import React from 'react';
-import intl from 'react-intl-universal';
+import { TranslateGlobal } from '../../contexts/translateGlobal';
 import * as S from './styles';
 
 import { FlagsCountry } from './FlagsCountry';
 import { Menu } from '../Menu';
 
-import { TranslateGlobal } from '../../contexts/translateGlobal';
+import { RiCodeView } from "react-icons/ri";
+
 
 export const Header = () => {
     const { getTranslate } = React.useContext(TranslateGlobal);
@@ -14,7 +15,10 @@ export const Header = () => {
         <>
             <FlagsCountry />
             <S.Header>
-                <S.Title>{getTranslate('header.title')}</S.Title>
+                <S.Title>
+                    {getTranslate('header.title')} 
+                    <RiCodeView />
+                </S.Title>
                 <Menu />
             </S.Header>
         </>

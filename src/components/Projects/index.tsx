@@ -7,8 +7,7 @@ import { Projects as DataProjects } from '../../utils/projects'
 export const Projects = () => {
     return (
         <S.Container id="projects">
-            <TitleSection>Projects</TitleSection>
-
+            <TitleSection text="projects.title" />
             <S.ContainerList>
                 {
                     DataProjects && DataProjects.map((item) => {

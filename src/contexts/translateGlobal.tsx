@@ -27,7 +27,9 @@ const TranslateProvider = ({children}) => {
     }
 
     function getTranslate(key: string, options?: object): string {
-        return intl.get(key, options);
+        if(key !== '') {
+            return intl.get(key, options);
+        }
     }
 
     return (

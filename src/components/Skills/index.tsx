@@ -7,8 +7,7 @@ import { List } from './List';
 export const Skills = () => {
     return (
         <S.Container id="my-skills">
-            <TitleSection>My Skills</TitleSection>
-
+            <TitleSection text="skills.title" />
             <S.ContainerSkills>
                 {
                     SkillsData && SkillsData.map(({name, icon}) => {

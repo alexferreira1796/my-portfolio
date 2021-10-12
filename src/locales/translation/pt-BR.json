@@ -13,5 +13,27 @@
         "apresentation": "Eu sou o Alex Ferreira",
         "subtitle": "Desenvolvedor Front-end",
         "button": "Entrar em contato"
+    },
+    "about": {
+        "title": "Sobre mim",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident"
+    },
+    "projects": {
+        "title": "Projetos"
+    },
+    "services": {
+        "title": "Serviços",
+        "data": {
+            "web": "Criação de sites",
+            "responsive": "Sites responsivos",
+            "back": "Back-end"  
+        }
+    },
+    "skills": {
+        "title": "Minhas Skills"
+    },
+    "footer": {
+        "text": "Desenvolvido por",
+        "name": "Alex Ferreira"
     }
 }

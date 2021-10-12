@@ -6,11 +6,20 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
+    padding-top: 10px;
 `
 
 export const Title = styled.h1`
     color: ${({theme}) => theme.colors.white};
     font-size: 26px;
     line-height: 33px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        font-size: 30px;
+        margin-left: 15px;
+    }
 `

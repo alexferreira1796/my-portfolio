@@ -1,10 +1,9 @@
 import React from 'react';
 import Image from "next/image";
 import * as S from './styles'
+import { TranslateGlobal } from '../../contexts/translateGlobal';
 import { Button } from '../Button';
 import theme from '../../global/styles/theme';
-
-import { TranslateGlobal } from '../../contexts/translateGlobal';
 
 export const SectionHello = () => {
     const { getTranslate } = React.useContext(TranslateGlobal);
