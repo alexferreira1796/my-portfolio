@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/react-intl": "^3.0.0",
     "country-flag-icons": "^1.4.10",
     "next": "11.1.2",
     "next-images": "^1.8.1",
@@ -24,6 +23,7 @@
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
+    "@types/react-intl": "^3.0.0",
     "@types/react": "17.0.27",
     "@types/react-icons": "^3.0.0",
     "@types/styled-components": "^5.1.15",
