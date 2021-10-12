@@ -4,6 +4,7 @@ import { SectionHello } from '../components/SectionHello';
 import { About } from '../components/About';
 import { Projects } from '../components/Projects';
 import { Services } from '../components/Services';
+import { Skills } from '../components/Skills';
 import { Footer } from '../components/Footer';
 import * as S from "../global/styles/home";
 
@@ -17,6 +18,7 @@ const Home = () => {
         <About />
         <Projects />
         <Services />
+        <Skills />
       </S.Container>
       <Footer />
     </>

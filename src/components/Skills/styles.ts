@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.div`
     width: 100%;
-`
+`;
 
-export const ContainerList = styled.div`
+export const ContainerSkills = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 30px;
 `;
