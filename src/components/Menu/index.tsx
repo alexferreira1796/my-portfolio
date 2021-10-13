@@ -1,32 +1,38 @@
 import React from 'react';
-import Link from 'next/link'
 import * as S from './styles';
-import { Menu as Options } from '../../utils/menu'
-
-import { TranslateGlobal } from '../../contexts/translateGlobal';
+import { Logo } from '../Logo';
+import MenuOptions from '../MenuOptions';
 
 export const Menu = () => {
-    const { getTranslate } = React.useContext(TranslateGlobal);
+    const [open, setOpen] = React.useState<boolean>(false);
+    const refMenu = React.useRef<HTMLDivElement>(null);
+
+    function openMenu(event: any) {
+        if (event.target === refMenu.current) {
+            setOpen(false);
+            return;
+        }
+        setOpen(true);
+    }
 
     return (
-        <S.Menu>
-            <S.ListMenu>
-                {
-                    Options && Options.map(({id, name, tag}) => {
-                        return (
-                            <S.List key={id}>
-                                <Link 
-                                    href={tag}
-                                >
-                                    <a>
-                                        {getTranslate(`header.menu.${[name]}`)}
-                                    </a>
-                                </Link>
-                            </S.List>
-                        )
-                    })
-                }
-            </S.ListMenu>
-        </S.Menu>
+        <>
+            <S.Nav>
+                <MenuOptions setOpen={setOpen} />
+            </S.Nav>
+            <S.Mobile>
+                <S.Button ref={refMenu} onClick={openMenu}>
+                    <S.IconBar></S.IconBar>
+                    <S.IconBar></S.IconBar>
+                    <S.IconBar></S.IconBar>
+                </S.Button>
+            </S.Mobile>
+            <S.NavMobile ref={refMenu} onClick={openMenu} open={open}>
+                <S.ContainerMenu>
+                    <Logo />
+                    <MenuOptions setOpen={setOpen} />
+                </S.ContainerMenu>
+            </S.NavMobile>
+        </>
     )
 }
