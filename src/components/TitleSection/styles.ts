@@ -11,7 +11,11 @@ export const Line = styled.div`
         left: 50%;
         top: 50;
         transform: translate(-50%, 50%);
-    } 
+    }
+
+    @media screen and (max-width: 997px) {
+       margin-top: 50px; 
+    }
 `;
 
 export const Title = styled.h2`
@@ -21,5 +25,9 @@ export const Title = styled.h2`
     padding-bottom: 30px;
     text-align: center;
     padding-top: 30px;
+
+    @media screen and (max-width: 400px) {
+       font-size: 20px;
+    }
     
 `

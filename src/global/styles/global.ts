@@ -61,5 +61,12 @@ export const GlobalStyle = createGlobalStyle`
         border: 1px solid #333333;
         padding: 10px;
         font-size: 14px;
+
+        @media screen and (max-width: 600px) {
+            width: 100%;
+            font-size: 14px;
+            padding: 1px;
+            height: 50px;
+        }
     }
 `;

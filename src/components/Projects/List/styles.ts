@@ -14,6 +14,10 @@ export const Container = styled.div`
     padding: 20px;
     flex-grow: 1;
     border: 10px solid ${({theme}) => theme.colors.primary};
+
+    @media screen and (max-width: 997px) {
+        width: 100%;
+    }
 `;
 
 export const ContainerDesc = styled.div`
@@ -26,6 +30,11 @@ export const Photo = styled.div`
     border: 5px solid ${({theme}) => theme.colors.primary};
     background-size: cover;
     margin-bottom: 23px;
+
+    @media screen and (max-width: 997px) {
+       height: 230px;
+    background-size: cover;
+    }
 `;
 
 export const Title = styled.p`

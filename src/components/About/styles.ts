@@ -9,6 +9,14 @@ export const Paragraph = styled.p`
     color: ${({theme}) => theme.colors.secondary};
     padding-bottom: 125px;
     text-align: justify;
+
+    @media screen and (max-width: 997px) {
+        padding-bottom: 50px;
+    }
+
+    @media screen and (max-width: 400px) {
+       font-size: 16px;
+    }
 `;
 
 export const ContainerSocial = styled.div`
@@ -16,4 +24,8 @@ export const ContainerSocial = styled.div`
     align-items: center;
     justify-content: space-between;
     flex-direction: columns;
+
+    @media screen and (max-width: 997px) {
+        flex-direction: column;
+    }
 `;

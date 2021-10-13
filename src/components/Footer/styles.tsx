@@ -6,6 +6,10 @@ export const Footer = styled.footer`
     padding: 20px 0;
     background-color: ${({theme}) => theme.colors.border};
     margin-top: 143px;
+
+    @media screen and (max-width: 997px) {
+       margin-top: 50px; 
+    }
 `
 
 export const Paragraph = styled.p`

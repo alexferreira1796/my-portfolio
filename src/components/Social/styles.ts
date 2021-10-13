@@ -16,6 +16,10 @@ export const Container = styled.div`
             color: ${({theme}) => theme.colors.primary};
         }
     }
+
+    @media screen and (max-width: 997px) {
+        margin-bottom: 30px;
+    }
 `
 
 export const Icon = styled.div`

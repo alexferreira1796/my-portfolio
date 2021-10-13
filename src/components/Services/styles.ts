@@ -10,4 +10,12 @@ export const ContainerList = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
+
+    @media screen and (max-width: 997px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 680px) {
+        margin-top: 0px;
+    }
 `;
