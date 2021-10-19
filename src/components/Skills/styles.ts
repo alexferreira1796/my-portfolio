@@ -14,7 +14,7 @@ export const ContainerSkills = styled.div`
     margin: 0 auto;
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 997px) {
     margin-top: 0px;
     flex-wrap: wrap;
   }
