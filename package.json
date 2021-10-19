@@ -23,15 +23,16 @@
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
-    "@types/react-intl": "^3.0.0",
     "@types/react": "17.0.27",
     "@types/react-icons": "^3.0.0",
+    "@types/react-intl": "^3.0.0",
     "@types/styled-components": "^5.1.15",
     "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-styled-components": "^1.13.2",
     "babel-preset-next": "^1.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "netlify-cli": "^6.14.0",
     "typescript": "4.4.3"
   }
 }
