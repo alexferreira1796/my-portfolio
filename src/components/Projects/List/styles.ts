@@ -31,7 +31,6 @@ export const Photo = styled.div`
   margin-bottom: 23px;
 
   @media screen and (max-width: 997px) {
-    height: 230px;
     background-size: cover;
   }
 `;
