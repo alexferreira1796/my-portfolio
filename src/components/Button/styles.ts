@@ -1,16 +1,21 @@
 import styled from "styled-components";
-import { IColors } from './index'
+import { IColors } from "./index";
 
 interface IButton {
-    colors: IColors;
+  colors: IColors;
 }
 
 export const Button = styled.button`
-    background-color: ${(props: IButton) => `${props.colors.bgColor}`};
-    color: ${(props: IButton) => `${props.colors.color}`};
+  background-color: ${(props: IButton) => `${props.colors.bgColor}`};
 
-    &:hover {
-        background-color: ${(props: IButton) => `${props.colors.color}`};
-        color: ${(props: IButton) => `${props.colors.bgColor}`};
+  a {
+    color: ${(props: IButton) => `${props.colors.color}`};
+  }
+
+  &:hover {
+    background-color: ${(props: IButton) => `${props.colors.color}`};
+    a {
+      color: ${(props: IButton) => `${props.colors.bgColor}`};
     }
+  }
 `;

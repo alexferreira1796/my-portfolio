@@ -3,30 +3,29 @@ import { GoMarkGithub } from "react-icons/go";
 import { GrInstagram } from "react-icons/gr";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-
 export const Social = [
-    {
-        name: "E-mail",
-        path: "malito:alex.ferreira@gmail.com",
-        text: "alex.ferreira@gmail.com",
-        icon: <MdEmail />
-    },
-    {
-        name: "Github",
-        path: "https://github.com/alexferreira1796",
-        text: "alexferreira1796",
-        icon: <GoMarkGithub />
-    },
-    {
-        name: "Instagram",
-        path: "https://www.instagram.com/alexferreiranw",
-        text: "@alexferreiranw",
-        icon: <GrInstagram />
-    },
-    {
-        name: "Whatsapp",
-        path: "https://api.whatsapp.com/send?phone=5551996502085&text=Ol%C3%A1%2C%20",
-        text: "+55 51 99650-2085",
-        icon: <IoLogoWhatsapp />
-    },
-]
+  {
+    name: "E-mail",
+    path: "malito:alex.ferreira@gmail.com",
+    text: "alex.ferreira@gmail.com",
+    icon: <MdEmail />,
+  },
+  {
+    name: "Github",
+    path: "https://github.com/alexferreira1796",
+    text: "alexferreira1796",
+    icon: <GoMarkGithub />,
+  },
+  {
+    name: "Instagram",
+    path: "https://www.instagram.com/alexferreiranw",
+    text: "@alexferreiranw",
+    icon: <GrInstagram />,
+  },
+  {
+    name: "Whatsapp",
+    path: "https://api.whatsapp.com/send?phone=5551996502085&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20seu%20servi%C3%A7o.",
+    text: "+55 51 99650-2085",
+    icon: <IoLogoWhatsapp />,
+  },
+];

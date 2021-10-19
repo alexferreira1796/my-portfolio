@@ -1,39 +1,39 @@
 {
-    "header": {
-        "title": "Portfolio",
-        "menu": {
-            "about": "About me",
-            "projects": "Projects",
-            "services": "Services",
-            "skills": "My Skills"
-        }
-    },
-    "sectionHello": {
-        "title": "Hello,",
-        "apresentation": "I am Alex Ferreira",
-        "subtitle": "Front-end developer",
-        "button": "Get in touch"
-    },
-    "about": {
-        "title": "About me",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident"
-    },
-    "projects": {
-        "title": "Projects"
-    },
-    "services": {
-        "title": "Services",
-        "data": {
-            "web": "Website creation",
-            "responsive": "Responsive sites",
-            "back": "Back-end"  
-        }
-    },
-    "skills": {
-        "title": "My Skills"
-    },
-    "footer": {
-        "text": "Developed by",
-        "name": "Alex Ferreira"
+  "header": {
+    "title": "Portfolio",
+    "menu": {
+      "about": "About me",
+      "projects": "Projects",
+      "services": "Services",
+      "skills": "My Skills"
     }
+  },
+  "sectionHello": {
+    "title": "Hello,",
+    "apresentation": "I am Alex Ferreira",
+    "subtitle": "Front-end developer",
+    "button": "Get in touch"
+  },
+  "about": {
+    "title": "About me",
+    "description": "“HTML is the future”, was the phrase that made me pursue a career as a developer. Currently, i am focused on the JavaScript stack studying and working using ReactJS, React-Native and Vuejs. I in love technology, i graduated as a Computer Technician in 2018 I'm always ready for new challenges!!"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "services": {
+    "title": "Services",
+    "data": {
+      "web": "Website creation",
+      "responsive": "Responsive sites",
+      "back": "Back-end"
+    }
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "footer": {
+    "text": "Developed by",
+    "name": "Alex Ferreira"
+  }
 }
