@@ -12,10 +12,12 @@ interface IButton {
   link?: string;
 }
 
-export const Button = ({ text, colors, link = "#" }: IButton) => {
+export const Button = ({ text, colors, link = "#", ...rest }: IButton) => {
   return (
     <S.Button colors={colors}>
-      <Link href={link}>{text}</Link>
+      <Link href={link} {...rest}>
+        <a target="_blank">{text}</a>
+      </Link>
     </S.Button>
   );
 };
