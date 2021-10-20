@@ -22,13 +22,13 @@ export const SectionHello = () => {
         <S.Subtitle>{getTranslate("sectionHello.subtitle")}</S.Subtitle>
 
         <S.Buttons>
-          <Button
+          {/*<Button
             text="Download CV"
             colors={{
               color: theme.colors.primary,
               bgColor: theme.colors.tertiary,
             }}
-          />
+          />*/}
           <Button
             text={getTranslate("sectionHello.button")}
             link={path}
