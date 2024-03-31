@@ -1,9 +1,9 @@
-import React from 'react';
-import * as S from './styles';
-import { Logo } from '../Logo';
-import MenuOptions from '../MenuOptions';
+import React from "react";
+import * as S from "./styles";
+import { Logo } from "../Logo";
+import MenuOptions from "../MenuOptions";
 
-import { MenuGlobal } from '../../contexts/menuGlobal';
+import { MenuGlobal } from "../../contexts/menuGlobal";
 
 export const Menu = () => {
   const { open, controlMenu } = React.useContext(MenuGlobal);
@@ -20,7 +20,7 @@ export const Menu = () => {
   return (
     <>
       <S.Nav>
-        <MenuOptions setOpen={controlMenu} />
+        <MenuOptions />
       </S.Nav>
       <S.Mobile>
         <S.Button ref={refMenu} onClick={openMenu}>
@@ -32,7 +32,7 @@ export const Menu = () => {
       <S.NavMobile ref={refMenu} onClick={openMenu} open={open}>
         <S.ContainerMenu>
           <Logo />
-          <MenuOptions setOpen={controlMenu} />
+          <MenuOptions />
         </S.ContainerMenu>
       </S.NavMobile>
     </>
