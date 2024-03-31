@@ -5,17 +5,17 @@ export const Container = styled.div`
 `;
 
 export const ContainerSkills = styled.div`
-  display: flex;
+   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-
+  flex-wrap: wrap;
+  
   svg {
     margin: 0 auto;
   }
 
   @media screen and (max-width: 997px) {
     margin-top: 0px;
-    flex-wrap: wrap;
   }
 `;

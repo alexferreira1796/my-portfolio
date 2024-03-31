@@ -5,7 +5,7 @@ const theme = {
         tertiary: "#00DF5E",
         optional: "#8257E6",
         border: "#212121",
-
+        danger: '#FF5E56',
         
         white: "#F9F9F9",
         black: "#000000",

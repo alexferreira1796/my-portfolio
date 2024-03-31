@@ -9,11 +9,11 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  flex-basis: calc(100% / 3);
+  flex-basis: calc(100% / 4);
   background-color: ${({ theme }) => theme.colors.border};
   padding: 20px;
-  flex-grow: 1;
   border: 10px solid ${({ theme }) => theme.colors.primary};
+  cursor: pointer;
 
   @media screen and (max-width: 997px) {
     width: 100%;
@@ -29,6 +29,7 @@ export const Photo = styled.div`
   border: 5px solid ${({ theme }) => theme.colors.primary};
   background-size: cover;
   margin-bottom: 23px;
+      background-position: center;
 
   @media screen and (max-width: 997px) {
     background-size: cover;
@@ -47,4 +48,16 @@ export const Description = styled.p`
   font-size: 14px;
   line-height: 18px;
   margin-top: 10px;
+`;
+
+export const PhotoModal = styled.div`
+  width: auto;
+  height: 500px;
+  background-image: ${(props: IPhoto) => `url(${props.image})`};
+  border: 5px solid ${({ theme }) => theme.colors.primary};
+  background-size: cover;
+
+  @media screen and (max-width: 997px) {
+    background-size: cover;
+  }
 `;

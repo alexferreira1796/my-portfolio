@@ -9,6 +9,8 @@ export const Paragraph = styled.p`
     color: ${({theme}) => theme.colors.secondary};
     padding-bottom: 125px;
     text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
 
     @media screen and (max-width: 997px) {
         padding-bottom: 50px;

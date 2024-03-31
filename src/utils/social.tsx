@@ -6,8 +6,8 @@ import { IoLogoWhatsapp } from "react-icons/io";
 export const Social = [
   {
     name: "E-mail",
-    path: "malito:alex.ferreira@gmail.com",
-    text: "alex.ferreira@gmail.com",
+    path: "malito:alex.ferreira1796@gmail.com",
+    text: "alex.ferreira1796@gmail.com",
     icon: <MdEmail />,
   },
   {

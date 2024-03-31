@@ -11,12 +11,12 @@
   "sectionHello": {
     "title": "Olá,",
     "apresentation": "Eu sou o Alex Ferreira",
-    "subtitle": "Desenvolvedor Front-end",
+    "subtitle": "Desenvolvedor Front-End | Web & Apps",
     "button": "Entrar em contato"
   },
   "about": {
     "title": "Sobre mim",
-    "description": "“HTML é o futuro”, foi a frase que me fez seguir carreira como desenvolvedor. Atualmente, estou focado na stack JavaScript estudando e trabalhando usando ReactJS, React-Native e Vuejs. Sou apaixonado por tecnologia, sou formado como Técnico de Informática, me formei no ano de 2018. Estou sempre pronto para novos desafios!!"
+    "description": "Minha jornada começou quando ouvi a frase 'HTML é o futuro', despertando minha paixão pela programação e me impulsionando em direção à carreira de desenvolvedor. Desde então, tenho mergulhado de cabeça no mundo da tecnologia, constantemente aprimorando minhas habilidades e explorando novas ferramentas e tecnologias. Minha especialidade está na criação de experiências digitais excepcionais, tanto para a web quanto para aplicativos, com um foco particular na implementação eficiente e elegante de interfaces de usuário."
   },
   "projects": {
     "title": "Projetos"
@@ -26,7 +26,7 @@
     "data": {
       "web": "Criação de sites",
       "responsive": "Sites responsivos",
-      "back": "Back-end"
+      "app": "Aplicativos"
     }
   },
   "skills": {
