@@ -1,11 +1,11 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export const Title = () => {
-    return (
-        <>
-            <Head>
-                <title>Alex Ferreira - Portfolio</title>
-            </Head>
-        </>
-    )
-}
+  return (
+    <>
+      <Head>
+        <title>Alex Ferreira - Portfolio</title>
+      </Head>
+    </>
+  );
+};

@@ -1,11 +1,11 @@
 import { Title } from "../components/Title";
 import { Header } from "../components/Header";
-import { SectionHello } from '../components/SectionHello';
-import { About } from '../components/About';
-import { Projects } from '../components/Projects';
-import { Services } from '../components/Services';
-import { Skills } from '../components/Skills';
-import { Footer } from '../components/Footer';
+import { SectionHello } from "../components/SectionHello";
+import { About } from "../components/About";
+import { Projects } from "../components/Projects";
+import { Services } from "../components/Services";
+import { Skills } from "../components/Skills";
+import { Footer } from "../components/Footer";
 import * as S from "../global/styles/home";
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
       </S.Container>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
