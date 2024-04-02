@@ -1,4 +1,4 @@
-bb# Meu Portfólio
+# Meu Portfólio
 
 > Bem-vindo ao meu portfólio! Este é um site simples onde compartilho informações de contato e exibo minhas habilidades como desenvolvedor.
 
