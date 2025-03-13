@@ -24,7 +24,7 @@ export const SectionHello = () => {
         <S.Buttons>
           <Button
             text="Download CV"
-            link="https://drive.google.com/file/d/1MASDlDbHzGoX2CF6_nd1kovQMep5uwfR/view?usp=sharing"
+            link="https://drive.google.com/file/d/1RVxngacOb2HWWyFtczUMIVO66Cbn9fak/view?usp=sharing"
             colors={{
               color: theme.colors.primary,
               bgColor: theme.colors.tertiary,
