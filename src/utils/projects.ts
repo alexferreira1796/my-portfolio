@@ -29,6 +29,6 @@ export const Projects = [
     description: 'HTML5 - CSS3 - NextJS - TypeScript - Styled-components',
     image:
       '/projects/TatearABA.gif',
-    path: 'https://webapp-2fiw.vercel.app/',
+    path: 'https://painel.tatear.com/',
   },
 ];
